@@ -31,6 +31,8 @@ You cannot create an empty folder and then add files to that folder, but rather 
 `git pull`
 
 **Merge conflicts**  
+Gives a history of all of your commits on that repository  
+`git log`
 
 **Open a file with VS Code from terminal**  
 `code <file name>`
