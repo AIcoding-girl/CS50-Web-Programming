@@ -52,4 +52,10 @@ The branch you are currently looking at is determined by the **HEAD**, which poi
 
 `git checkout <branch name>` to switch between branches and commit any changes to each branch;  
 When we’re ready to merge our two branches together, we’ll check out the branch we wish to keep (almost always the master branch) and then run the command  
-`git merge <other branch name>`. This will be treated similarly to a push or pull, and merge conflicts may appear.
+`git merge <other branch name>`. This will be treated similarly to a push or pull, and merge conflicts may appear.  
+
+**More GitHub Features**  
+
+   + **Forking**: As a GitHub user, you have the ability to fork any repository that you have access to, which creates a copy of the repository that you are the owner of. We do this by clicking the “Fork” button in the top-right.  
+   + **Pull Requests**  
+   + **GitHub Pages**
