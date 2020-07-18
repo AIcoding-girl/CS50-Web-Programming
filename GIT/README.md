@@ -9,7 +9,7 @@ You cannot create an empty folder and then add files to that folder, but rather 
 - Go to the folder inside which you want to create another folder
 - Click on New file
 - On the text field for the file name, first write the folder name you want to create
-- **Then type /.** This creates a folder
+- **Then type / .** This creates a folder
 - You can add more folders similarly
 - Give the new file a name
 - Finally, click Commit new file.
