@@ -7,12 +7,12 @@ run `git clone <repository url>`
 **Create new folder in Github repository**  
 You cannot create an empty folder and then add files to that folder, but rather creation of a folder must happen together with adding of at least a single file.
 - Go to the folder inside which you want to create another folder
-- Click on New file
+- Click on "New file"
 - On the text field for the file name, first write the folder name you want to create
 - **Then type /.** This creates a folder
 - You can add more folders similarly
 - Give the new file a name
-- Finally, click Commit new file.
+- Finally, click "Commit new file".
 
 **Create new file from terminal**  
 `touch <file name>`
