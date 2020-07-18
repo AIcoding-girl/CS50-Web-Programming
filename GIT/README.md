@@ -32,3 +32,5 @@ You cannot create an empty folder and then add files to that folder, but rather 
 
 **Merge conflicts**  
 
+**Open a file with VS Code from terminal**
+`code <file name>`
