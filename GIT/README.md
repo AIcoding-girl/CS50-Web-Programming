@@ -31,3 +31,4 @@ You cannot create an empty folder and then add files to that folder, but rather 
 `git pull`
 
 **Merge conflicts**  
+
