@@ -31,8 +31,14 @@ You cannot create an empty folder and then add files to that folder, but rather 
 `git pull`
 
 **Merge conflicts**  
+  
 Gives a history of all of your commits on that repository  
 `git log`
+
+Revert back to a previous commit  
+`git reset`
+      + `git reset --hard <commit>` reverts your code to exactly how it was after the specified commit. To specify the commit, use the commit hash associated with a commit which can be found using `git log`;  
+      + `git reset --hard origin/master` reverts your code to the version currently stored online on Github;
 
 **Open a file with VS Code from terminal**  
 `code <file name>`
