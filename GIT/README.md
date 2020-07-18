@@ -36,9 +36,20 @@ Gives a history of all of your commits on that repository
 `git log`
 
 Revert back to a previous commit  
-`git reset`
-      + `git reset --hard <commit>` reverts your code to exactly how it was after the specified commit. To specify the commit, use the commit hash associated with a commit which can be found using `git log`;  
-      + `git reset --hard origin/master` reverts your code to the version currently stored online on Github;
+`git reset`  
+  
+   + `git reset --hard <commit>` reverts your code to exactly how it was after the specified commit. To specify the commit, use the commit hash associated with a commit which can be found using `git log`;  
+   + `git reset --hard origin/master` reverts your code to the version currently stored online on Github;
 
 **Open a file with VS Code from terminal**  
 `code <file name>`
+
+**Branching** is a method of moving into a new direction when **creating a new feature**, and only combining this new feature with the main part of your code, or the main branch, once you’re finished.  
+The branch you are currently looking at is determined by the **HEAD**, which points to one of the two branches. By default, the HEAD is pointed at the master branch, but we can check out other branches as well.  
+  
+1) `git branch` to see which branch you’re currently working on;  
+2) `git checkout -b <new branch name>` to make a new branch;  
+
+`git checkout <branch name>` to switch between branches and commit any changes to each branch;  
+When we’re ready to merge our two branches together, we’ll check out the branch we wish to keep (almost always the master branch) and then run the command  
+`git merge <other branch name>`. This will be treated similarly to a push or pull, and merge conflicts may appear.
