@@ -21,7 +21,7 @@ You cannot create an empty folder and then add files to that folder, but rather 
 `git add <new file name>`  
 `git commit -m "some message"`
 
-   + If you’ve only changed existing files and not created new ones, instead of using git add . and then git commit..., use  
+   + If you’ve only changed existing files and not created new ones, instead of using `git add .` and then `git commit...`, use  
    + `git commit -am "some message"`  
 
 `git status`  
