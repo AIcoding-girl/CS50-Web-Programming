@@ -44,6 +44,12 @@ Revert back to a previous commit
 **Open a file with VS Code from terminal**  
 `code <file name>`
 
+**While uploading files from other (computer) account, configure your personal GitHub account details**
+`
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+`
+
 **Branching** is a method of moving into a new direction when **creating a new feature**, and only combining this new feature with the main part of your code, or the main branch, once you’re finished.  
 The branch you are currently looking at is determined by the **HEAD**, which points to one of the two branches. By default, the HEAD is pointed at the master branch, but we can check out other branches as well.  
   
